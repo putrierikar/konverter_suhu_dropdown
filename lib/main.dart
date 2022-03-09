@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_konverter_suhu/convert.dart';
 import 'package:flutter_konverter_suhu/dropdown.dart';
 import 'package:flutter_konverter_suhu/input.dart';
-import 'package:flutter_konverter_suhu/result.dart';
 
 
 void main() {
