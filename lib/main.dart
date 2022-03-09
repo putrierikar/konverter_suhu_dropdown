@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_konverter_suhu/dropdown.dart';
-import 'package:flutter_konverter_suhu/input.dart';
 import 'package:konverter_suhu_dropdown/convert.dart';
+import 'package:konverter_suhu_dropdown/dropdown.dart';
 
 
 void main() {
@@ -29,16 +28,12 @@ class _MyAppState extends State<MyApp> {
           case "Kelvin":
             {
               _result = _inputUser + 273;
-              listHasil.add("Kelvin : " +
-                            "$_result");
             }
             break;
 
           case "Reamur":
             {
               _result = _inputUser * 0.8;
-              listHasil.add("Reamur : " +
-                            "$_result");
             }
             break;
         }
